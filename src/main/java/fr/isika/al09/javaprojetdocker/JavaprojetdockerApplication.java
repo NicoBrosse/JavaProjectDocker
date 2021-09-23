@@ -10,4 +10,5 @@ public class JavaprojetdockerApplication {
 		SpringApplication.run(JavaprojetdockerApplication.class, args);
 	}
 
+	
 }
