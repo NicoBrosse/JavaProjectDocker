@@ -22,7 +22,7 @@ public class PersonneController {
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("bonjour");
 		message = "Bonjour " + nom + " Vous êtes bien matinal"; 
-		modelAndView.addObject(message);
+		modelAndView.addObject("message",message);
 		return modelAndView;
 	}
 	
